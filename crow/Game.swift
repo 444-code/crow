@@ -20,7 +20,6 @@ struct PhysicsCategory {
     ContentView()
 }
 
-
 class GameScene: SKScene, SKPhysicsContactDelegate{
     var bird: Bird = Bird(imageNamed: "crow_start")
     var display: CGRect{
